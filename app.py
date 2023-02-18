@@ -18,3 +18,6 @@ def healthcheck():
             response=json.dumps(response), status=response["status_code"],
             mimetype="application/json"
         )
+
+if __name__ == "__main__":
+	app.run()
